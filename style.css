@@ -1,0 +1,157 @@
+
+* {
+  margin:1px;
+  padding:0px;
+  
+}
+
+#header {
+  margin: -230px 500px;
+  width:1000px; 
+  font-family : Helvetica, "Now Serif", "comic scan";
+  
+  
+}
+
+ul, ol {
+  list-style:none;
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-image: url("assets/img/menu1.png");
+  background-size: 700px 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:#34503137;
+  color: #f8f9fa;
+  text-decoration:none;
+  padding:20px 40px;
+  display:block;
+  border-radius: 4cm;
+  font-family: Helvetica, "Now Serif", "comic scan";
+  text-shadow: 2px 2px 0px rgb(0, 0, 0);
+  font-size: 24px;
+  
+}
+
+.nav li a:hover {
+  background-color:#994c11c9;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:160px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:140px;
+  top:0px;
+}
+
+
+body { 
+		
+    background-image: url("assets/img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+  } 
+.titulo1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-family: Helvetica, "Now Serif", "comic scan";
+    font-size: 40px;
+    text-align: center;
+}
+.texto1 {
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-family: Helvetica, "Now Serif", "comic scan";
+    text-transform: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #00000077;
+    margin-left: 400px;
+    margin-right: 400px;
+
+    
+}
+
+#logo {
+  background-color: #00000073;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+
+}
+
+.productos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+
+.productos li{
+  background-color: #ffffff5f;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.productos li:hover{
+  border-color:#2415cd;
+}
+
+.productos li:active{
+  border-color:#8c0808;
+}
+
+.productos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.productos li:hover h2{
+  font-size: 33px;
+}
+
+.producto-descripcion{
+  font-size: 18px;
+}
+
+.producto-precio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:10px;
+}
+
+footer{
+  text-align: center;
+  background: #0e0e9879;
+  padding: 10px;
+}
